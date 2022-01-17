@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kunda test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h2>Attendance list</h2>
+    </header>
+
+    <form id="myForm" class="myForm">
+      <input type="text" id="textField" placeholder="Enter name(s)" autocomplete="off" required />
+      <button type="button" onclick="handleSubmit()">Submit</button>
+    </form>
+  
+    <table id="myTable" class="myTable">
+      <tbody id="table-body">
+        
+      </tbody>
+    </table>
+
+  
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+  
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="popupForm">
+  
+        </form>
+      </div>
+  
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
